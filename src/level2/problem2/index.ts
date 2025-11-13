@@ -29,6 +29,6 @@ export function merge(...args: DowntimeLogs[]): DowntimeLogs {
 
   // Push the final merged interval
   merged.push([currentStart, currentEnd]);
-  console.log(merged);
+
   return merged;
 }
